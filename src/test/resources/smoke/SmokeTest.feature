@@ -13,5 +13,5 @@ Feature: AutoRegister Page Functionality
     And User enters password "Ntk-orange!admin.123"
     And User clicks login button
     Then System redirects to dashboard page "Dashboard"
-    ##Then System redirects to dashboard pages "Failed"
+    Then System redirects to dashboard pages "Failed"
     
