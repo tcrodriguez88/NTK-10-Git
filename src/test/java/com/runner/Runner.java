@@ -15,7 +15,8 @@ import io.cucumber.junit.CucumberOptions;
 					features = "src/test/resources/smoke/SmokeTest.feature",
 					glue = "com.steps",
 					plugin = {"pretty",
-					"html:target/cucumber-report.html"}
+					"json:target/cucumber.json",
+					"html:target/cucumber.html"}
 				)
 
 public class Runner {
