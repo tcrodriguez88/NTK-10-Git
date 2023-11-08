@@ -29,6 +29,7 @@ public class LoginStep {
 		
 		System.out.println("Test");
 		System.out.println("Test");
+		System.out.println("Test");
 	}
 
 	@When("User enters username {string}")
