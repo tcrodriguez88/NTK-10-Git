@@ -16,7 +16,6 @@ public class LoginStep {
 	
 	WebDriver driver;
 	
-	//testtestttest
 	
 	@Given("User navigates to login page {string}")
 	public void user_navigates_to_login_page(String url) throws InterruptedException {
@@ -26,6 +25,9 @@ public class LoginStep {
 		driver.manage().window().maximize();
 		driver.get(url);
 		Thread.sleep(2000);
+		
+		
+		System.out.println("Test");
 	}
 
 	@When("User enters username {string}")
